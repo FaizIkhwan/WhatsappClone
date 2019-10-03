@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "information.png",
+      "filename" : "ironman.jpeg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "information (1).png",
       "scale" : "2x"
     },
     {

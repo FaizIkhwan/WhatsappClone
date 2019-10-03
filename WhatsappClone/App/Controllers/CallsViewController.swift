@@ -28,6 +28,7 @@ class CallsViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         print("CallsViewController")
         tableView.dataSource = self
+        self.tableView.tableFooterView = UIView() // Remove extra separator in TableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

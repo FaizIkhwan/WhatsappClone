@@ -20,6 +20,9 @@
 		ED5F71BA230BDF2E00E702AD /* CallsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F71B9230BDF2E00E702AD /* CallsTableViewCell.swift */; };
 		ED5F71BE230C0CE300E702AD /* ChatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F71BD230C0CE300E702AD /* ChatsTableViewCell.swift */; };
 		ED5F71C0230C0D0800E702AD /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F71BF230C0D0800E702AD /* ChatsViewController.swift */; };
+		EDC02838231DF4CF00AECA93 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC02837231DF4CF00AECA93 /* SettingTableViewCell.swift */; };
+		EDC02840231E1BF800AECA93 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0283F231E1BF800AECA93 /* UserInfoHeader.swift */; };
+		EDDED09F2317AA5C002B8A21 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDED09E2317AA5C002B8A21 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		ED5F71B9230BDF2E00E702AD /* CallsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsTableViewCell.swift; sourceTree = "<group>"; };
 		ED5F71BD230C0CE300E702AD /* ChatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableViewCell.swift; sourceTree = "<group>"; };
 		ED5F71BF230C0D0800E702AD /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		EDC02837231DF4CF00AECA93 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		EDC0283F231E1BF800AECA93 /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		EDDED09E2317AA5C002B8A21 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +99,8 @@
 			children = (
 				ED5F7193230BC41F00E702AD /* StatusViewController.swift */,
 				ED5F7195230BC41F00E702AD /* CallsViewController.swift */,
-				ED5F71B9230BDF2E00E702AD /* CallsTableViewCell.swift */,
-				ED5F71BD230C0CE300E702AD /* ChatsTableViewCell.swift */,
 				ED5F71BF230C0D0800E702AD /* ChatsViewController.swift */,
+				EDDED09E2317AA5C002B8A21 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,6 +110,10 @@
 			children = (
 				ED5F7197230BC41F00E702AD /* Main.storyboard */,
 				ED5F719C230BC42000E702AD /* LaunchScreen.storyboard */,
+				ED5F71B9230BDF2E00E702AD /* CallsTableViewCell.swift */,
+				ED5F71BD230C0CE300E702AD /* ChatsTableViewCell.swift */,
+				EDC02837231DF4CF00AECA93 /* SettingTableViewCell.swift */,
+				EDC0283F231E1BF800AECA93 /* UserInfoHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,12 +226,15 @@
 			files = (
 				ED5F7196230BC41F00E702AD /* CallsViewController.swift in Sources */,
 				ED5F71B4230BDB7600E702AD /* Call.swift in Sources */,
+				EDDED09F2317AA5C002B8A21 /* SettingsViewController.swift in Sources */,
 				ED5F71C0230C0D0800E702AD /* ChatsViewController.swift in Sources */,
 				ED5F71B6230BDBFA00E702AD /* Status.swift in Sources */,
 				ED5F71AE230BD9B500E702AD /* Chat.swift in Sources */,
+				EDC02838231DF4CF00AECA93 /* SettingTableViewCell.swift in Sources */,
 				ED5F71BE230C0CE300E702AD /* ChatsTableViewCell.swift in Sources */,
 				ED5F7192230BC41F00E702AD /* AppDelegate.swift in Sources */,
 				ED5F71BA230BDF2E00E702AD /* CallsTableViewCell.swift in Sources */,
+				EDC02840231E1BF800AECA93 /* UserInfoHeader.swift in Sources */,
 				ED5F71B0230BDA5800E702AD /* User.swift in Sources */,
 				ED5F7194230BC41F00E702AD /* StatusViewController.swift in Sources */,
 			);

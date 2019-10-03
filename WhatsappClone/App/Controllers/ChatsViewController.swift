@@ -30,6 +30,7 @@ class ChatsViewController: UIViewController, UITableViewDataSource  {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        self.tableView.tableFooterView = UIView() // Remove extra separator in TableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
